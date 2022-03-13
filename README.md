@@ -1,5 +1,5 @@
 # Supervisord::Stderr
----
+
 A [Supervisord](https://supervisord.org/ "Supervisor: A Process Control System") event listener that sends process state changes to stderr.
 
 Provides access to the PROCESS_STATE of supervisor managed daemons.
@@ -8,7 +8,7 @@ Useful for debugging supervisor event listeners or for producing output that can
 
 Module is dependency free.
 
-### Installation
+## Installation
 ---
 To install this module type the following:
 ```
@@ -18,7 +18,7 @@ make test
 make install
 ```
 
-### Usage
+## Usage
 ---
 One-liner approach to using the module within a supervisor configuration:
 ```
