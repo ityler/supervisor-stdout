@@ -9,7 +9,7 @@ Useful for debugging supervisor event listeners or for producing output that can
 Module is dependency free.
 
 ## Installation
----
+
 To install this module type the following:
 ```
 perl Makefile.PL
@@ -19,7 +19,7 @@ make install
 ```
 
 ## Usage
----
+
 One-liner approach to using the module within a supervisor configuration:
 ```
 ...
